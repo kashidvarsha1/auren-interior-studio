@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import DesignChatbot from './components/DesignChatbot'            
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -722,7 +724,7 @@ function App() {
   </div>
 
 </footer>
-
+   <DesignChatbot />
     </main>
   )
 }
